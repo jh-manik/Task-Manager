@@ -1,0 +1,81 @@
+/*** Default Styles ***/
+*::before,
+*::after,
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body { background-color: #ececec; }
+ul { list-style-type: none; }
+
+/*** Header Styles ***/
+header.app-header {
+	padding: 1.5em;
+	background-color: #9b4dca;
+	margin-bottom: 2em;
+}
+
+header.app-header h1.app-heading {
+	text-align: center;
+	color: #f9f9f9;
+	text-shadow: 0 0 4px rgba(0, 0, 0, 0.45);
+}
+
+/*** App Body Styles  ***/
+main.app-body {
+	margin-top: 2em;
+	padding: 1.5em 0;
+}
+
+.task-card {
+    border: 1px solid #ececec; 
+    padding: 1.25em;
+    border-radius: 5px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+ul.task-items { padding-left: 1.25em; }
+.task-submit button:hover { cursor: pointer; }
+form.task-item-form { flex-grow: 1; }
+
+.task {
+	font-size: 1.25rem;
+	color: tomato;
+}
+
+ul.task-items li.task-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.85em;
+}
+
+.task-done {
+	color: #0ef278;
+	text-decoration: line-through;
+}
+
+button.task-item-task {
+	width: 100%;
+	background: none;
+	border: none;
+	text-align: left;
+	cursor: pointer;
+}
+
+
+/*** Footer Style ***/
+footer.app-footer {
+	margin-top: 5em;
+	padding: 2em 0 1.25em;
+	background-color: #212121;
+}
+
+footer.app-footer p {
+	text-align: center;
+	color: #f9f9f9;
+	padding-top: 1.25em;
+}
